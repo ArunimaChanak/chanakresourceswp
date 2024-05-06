@@ -1,0 +1,128 @@
+/* About Card */
+
+.about-card {
+    margin-top: 8%;
+    margin-bottom: 7%;
+}
+
+.about-body h6 {
+    max-width: 250px;
+    font-size: 18px;
+}
+
+.about-body h1 {
+    font-size: clamp(1.6rem, 5.5vw, 2.8rem);
+    font-family: Monserrat-Bold;
+    font-weight: bolder;
+    line-height: 1.15;
+}
+
+.about-body p {
+    font-size: clamp(16px, 3.333vw, 18px);
+    font-family: Roboto;
+    line-height: 1.25;
+}
+
+.about-card .about-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 991px) {
+    .about-card {
+        max-width: 750px;
+        width: 95%;
+    }
+}
+
+
+/* Mission Vission */
+
+.mv-bg {
+    background-color: var(--SecounderyColor);
+    margin-bottom: 4%;
+}
+
+.mv-row .mv-icon img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mv-row-text h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--PrimaryColor);
+}
+
+@media only screen and (min-width: 991px) {
+    .mv-body {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+
+/* Director */
+
+.director-card-body {
+    background-color: #dddddd;
+}
+
+.director-card-img {
+    height: 200px;
+    background-color: var(--SecounderyColor);
+}
+
+.director-card-img img {
+    aspect-ratio: 1 / 1;
+    border-radius: 50rem;
+}
+
+.director-card-text .name {
+    font-weight: bold;
+    color: var(--PrimaryColor);
+}
+
+.director-card-text .designation {
+    font-size: 14px;
+}
+
+.director-card-text p {
+    min-height: 142px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.director-card-text .social a {
+    background-color: #ffffff;
+    color: var(--PrimaryColor);
+    aspect-ratio: 1 / 1;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.director-card-text .social a.disabled {
+    opacity: 0.5;
+    user-select: none;
+    pointer-events: none;
+    cursor: default;
+}
+
+.director-card-text .social a i {
+    padding: 0;
+    width: fit-content;
+}
+
+.few-word-body h4 {
+    color: var(--PrimaryColor);
+    font-weight: bold;
+    font-size: clamp(1.5rem, 3.226vw, 2rem);
+    border-bottom: 2px solid #00000030;
+}

@@ -1,0 +1,47 @@
+/* Projects */
+
+
+
+/* Projects Show */
+
+.ProjectCard .card-img-top {
+    max-height: 400px;
+    overflow: hidden;
+}
+.ProjectCard .card-img-top .card-img-overlay {
+    width: max-content;
+    height: 34px;
+    padding: 0.5rem 0.75rem;
+    background-color: var(--PrimaryColor);
+    left: auto;
+    top: 15px;
+    right: 15px;
+    bottom: auto;
+    border-radius: 16px;
+}
+.UploadText {
+    font-size: 14px;
+}
+.ProjectCardBody .card-title {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Monserrat-Bold;
+}
+
+
+
+
+/* Sidebar */
+
+.Post {
+    display: grid;
+    grid-template-columns: 80px auto;
+}
+.PostImg {
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+}
+.PostImg img{
+    object-fit: cover;
+}

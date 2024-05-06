@@ -1,0 +1,133 @@
+/* Recent Publications */
+
+.publication h4 {
+    font-family: Monserrat-Bold;
+}
+
+.recentPostImg {
+    height: 130px;
+    overflow: hidden;
+}
+
+.recentPostImg img {
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 575px) {
+    .recentPostImg {
+        height: 250px;
+    }
+}
+
+.recentPostBody .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Monserrat;
+    color: var(--PrimaryColor);
+}
+
+.recentPostBody .text-body {
+    font-size: 14px;
+    line-height: 16px;
+    height: 35px;
+    overflow: hidden;
+}
+
+.subscribe-card .card-img {
+    height: 240px;
+    overflow: hidden;
+}
+
+.subscribe-card img {
+    object-fit: cover;
+}
+
+.subscribe-body .card-tittle {
+    font-family: Monserrat-Bold;
+    color: var(--PrimaryColor);
+}
+
+.subscribe-body .card-text {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.subscribe-body button {
+    border-radius: 20px;
+}
+
+
+/* News & Insights */
+
+.news {
+    margin-bottom: 8% !important;
+}
+
+.newsHeading {
+    border-bottom: 2px solid var(--PrimaryColor);
+}
+
+.newsHeading h3 {
+    font-size: 44px;
+    font-weight: bold;
+    font-family: Monserrat-Bold;
+}
+
+.newsCard:hover {
+    border-color: rgba(199, 0, 0, 0.1);
+    box-shadow: 0px 0px 14px 0px rgba(199, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(199, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(199, 0, 0, 0.5);
+}
+
+.newsCard .imageContainer {
+    height: 280px;
+    overflow: hidden;
+}
+
+.newsCard .imageContainer img {
+    object-fit: cover;
+}
+
+.imageContainer .card-img-overlay {
+    background-color: var(--PrimaryColor);
+    max-height: 70px;
+    right: 20px;
+    left: auto;
+    width: max-content;
+    font-family: Monserrat;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.imageContainer .card-img-overlay h5 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.imageContainer .card-img-overlay h5 small {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.newsCardBody .card-title {
+    font-size: 20px;
+    font-family: Monserrat-Bold;
+    color: var(--PrimaryColor);
+    height: 48px;
+    overflow-y: hidden;
+}
+
+.newsCardBody .card-text {
+    font-size: 15px;
+    line-height: 18px;
+    height: 108px;
+}
+
+.newsCardBody .footerText {
+    font-size: 13px;
+}
+
+.newsCardBody .footerText p i {
+    color: var(--PrimaryColor);
+}

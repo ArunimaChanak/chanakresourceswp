@@ -1,0 +1,266 @@
+/* Consultancy Card */
+
+.consultancy-card {
+    margin-top: 8%;
+}
+
+.consultancy-body h6 {
+    max-width: 280px;
+}
+
+.consultancy-body h1 {
+    font-size: clamp(2rem, 5.444vw, 3.375rem);
+    font-family: Monserrat-Bold;
+    font-weight: bolder;
+    line-height: 1.15;
+}
+
+.consultancy-body p {
+    font-size: clamp(1rem, 2.218vw, 1.25rem);
+    font-family: Roboto;
+    line-height: 1.25;
+}
+
+.newsCardBody .btn:hover {
+    background-color: var(--PrimaryColor);
+}
+
+
+/* Services */
+
+.service {
+    width: 95%;
+    max-width: 1400px;
+}
+
+.servive-card {
+    cursor: context-menu;
+}
+
+.service-heading {
+    height: max-content;
+}
+
+.service-heading .col-4 img {
+    top: 50%;
+    transform: translate(0%, -50%);
+    filter: grayscale(100%);
+}
+
+.service-heading .col-8 h3 {
+    font-size: clamp(28px, 5.217vw, 30px);
+    font-family: Monserrat-Bold;
+    font-weight: bold;
+    line-height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.service-body p {
+    font-size: 1.1rem;
+    font-family: Roboto;
+    line-height: 1.25;
+}
+
+@media only screen and (min-width: 768px) {
+    .service-body p {
+        height: 90px;
+        overflow-y: hidden;
+    }
+}
+
+.service-body a {
+    font-size: 16px !important;
+    font-family: Monserrat-Bold !important;
+    text-decoration: none;
+}
+
+.service-card:hover .service-heading .col-4 img {
+    filter: grayscale(0%);
+}
+
+@media only screen and (max-width: 767px) {
+    .service {
+        max-width: 530px;
+    }
+}
+
+
+/* Service Stats */
+
+.statsBody .counts {
+    font-family: Monserrat-Bold;
+}
+
+.statsBody .counts h2 {
+    font-size: 70px;
+}
+
+.statsBody .counts h6 {
+    font-size: 18px;
+}
+
+
+/* About Card */
+
+.about-card {
+    margin-top: 10%;
+    margin-bottom: 7%;
+    max-width: 1400px;
+}
+
+.about-body h6 {
+    max-width: 250px;
+    font-size: 18px;
+}
+
+.about-body h1 {
+    font-size: clamp(1.8rem, 5.5vw, 3.125rem);
+    font-family: Monserrat-Bold;
+    font-weight: bolder;
+    line-height: 1.15;
+}
+
+.about-body p {
+    font-size: clamp(16px, 3.333vw, 18px);
+    font-family: Roboto;
+    line-height: 1.25;
+}
+
+.about-body a {
+    border-radius: 35px;
+    font-weight: bolder;
+}
+
+.about-body a:hover {
+    color: var(--PrimaryColor) !important;
+    background-color: var(--SecounderyColor) !important;
+    border: 1px solid var(--PrimaryColor) !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .about-card {
+        max-width: 750px;
+        width: 95%;
+    }
+}
+
+
+
+/* Our Clients */
+
+.client-carousel {
+    width: calc(100% - 100px);
+    margin: auto;
+}
+
+.owl-nav {
+    height: 100%;
+    width: 100%;
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    top: 0;
+}
+
+.owl-nav .owl-prev span,
+.owl-nav .owl-next span {
+    display: block;
+    font-size: 42px;
+}
+
+.owl-nav .owl-prev {
+    left: -50px;
+}
+
+.owl-nav .owl-next {
+    right: -50px;
+}
+
+
+/* News & Insights */
+
+.news {
+    margin-bottom: 8% !important;
+}
+
+.newsHeading {
+    border-bottom: 2px solid var(--PrimaryColor);
+}
+
+.newsHeading h3 {
+    font-size: clamp(2.25rem, 4.435vw, 2.75rem);
+    font-weight: bold;
+    font-family: Monserrat-Bold;
+}
+
+.newsCard:hover {
+    border-color: rgba(199, 0, 0, 0.1);
+    box-shadow: 0px 0px 14px 0px rgba(199, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(199, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(199, 0, 0, 0.5);
+}
+
+.newsCard .imageContainer {
+    height: 280px;
+    overflow: hidden;
+}
+
+.newsCard .imageContainer img {
+    object-fit: cover;
+}
+
+.imageContainer .card-img-overlay {
+    background-color: var(--PrimaryColor);
+    max-height: 70px;
+    right: 20px;
+    left: auto;
+    width: max-content;
+    font-family: Monserrat;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.imageContainer .card-img-overlay h5 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.imageContainer .card-img-overlay h5 small {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.newsCardBody .card-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Monserrat-Bold;
+    color: var(--PrimaryColor);
+    height: 48px;
+    overflow-y: hidden;
+}
+
+.newsCardBody .card-text {
+    font-size: 15px;
+    line-height: 18px;
+    height: 108px;
+}
+
+.newsCardBody .footerText {
+    font-size: 13px;
+}
+
+.newsCardBody .footerText p i {
+    color: var(--PrimaryColor);
+}
+
+.news .viewMore {
+    font-size: 20px;
+    font-family: Monserrat;
+    background-color: var(--PrimaryColor);
+    color: #ffffff;
+}

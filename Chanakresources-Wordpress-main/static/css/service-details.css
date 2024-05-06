@@ -1,0 +1,186 @@
+.line {
+    border: 1px solid #000000;
+}
+
+
+/* Process & Results */
+
+.process {
+    margin-top: 8%;
+}
+
+.process h6 {
+    font-size: 18px;
+    max-width: 300px;
+}
+
+.process h2 {
+    font-size: 42px;
+    font-family: Monserrat-Bold;
+    font-weight: bolder;
+    line-height: 40px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .imgBox img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.process .process-body {
+    min-height: 240px;
+}
+
+.process-body .col-4 p {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+
+
+/* Recruitment Process */
+
+.RecruitmentProcess {
+    margin-top: 2%;
+}
+
+.RecruitmentProcess h2 {
+    font-size: 42px;
+    font-family: Monserrat-Bold;
+    font-weight: bolder;
+    line-height: 40px;
+}
+
+.RecruitmentCard .row .count {
+    font-size: 72px;
+    font-weight: bold;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--PrimaryColor)
+}
+
+.RecruitmentCard .row h4 {
+    font-size: 18px;
+    line-height: 20px;
+    min-height: 45px;
+    color: var(--PrimaryColor)
+}
+
+.RecruitmentCard .row ul li {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+
+@media only screen and (max-width: 575px) {
+    .RecruitmentBody {
+        max-width: 300px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .RecruitmentProcess {
+        max-width: 1400px !important;
+    }
+}
+
+
+
+/* Other Solution */
+
+.other {
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+
+.other-card {
+    cursor: context-menu;
+}
+
+.other h2 {
+    font-size: 42px;
+    font-family: Monserrat-Bold;
+    font-weight: bolder;
+    line-height: 40px;
+}
+
+.other-heading {
+    height: max-content;
+}
+
+.other-heading .col-4 img {
+    top: 50%;
+    transform: translate(0%, -50%);
+    filter: grayscale(100%);
+}
+
+.other-heading .col-8 h3 {
+    font-size: clamp(28px, 5.217vw, 30px);
+    font-family: Monserrat-Bold;
+    font-weight: bold;
+    line-height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.other-body p {
+    font-size: 1.1rem;
+    font-family: Roboto;
+    line-height: 1.25;
+}
+
+@media only screen and (min-width: 768px) {
+    .other-body p {
+        height: 90px;
+        overflow-y: hidden;
+    }
+}
+
+.other-body a {
+    font-size: 16px !important;
+    font-family: Monserrat-Bold !important;
+    text-decoration: none;
+}
+
+.other-card:hover .other-heading .col-4 img {
+    filter: grayscale(0%);
+}
+
+.consultance {
+    min-height: 275px;
+}
+
+.consultance .body {
+    height: max-content;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.consultance .body img {
+    height: 90px;
+}
+
+.consultance .body .card-text {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.consultance .body .card-footer {
+    border-top: 1px solid #000000;
+}
+
+.consultance .body .card-footer small {
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+@media only screen and (max-width: 767px) {
+    .other {
+        max-width: 530px;
+    }
+}
